@@ -1,4 +1,3 @@
-This is the README.md file
 
 # Erp Software
 
