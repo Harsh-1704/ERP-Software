@@ -1,0 +1,122 @@
+/* Ant Design Dark Theme Overrides */
+
+/* General */
+.ant-btn-primary {
+  background: var(--accent-gradient) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3) !important;
+  font-weight: 600 !important;
+  transition: all var(--transition-fast) !important;
+}
+.ant-btn-primary:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.4) !important;
+}
+
+/* Table */
+.ant-table {
+  background: transparent !important;
+}
+.ant-table-thead > tr > th,
+.ant-table-thead > tr > td {
+  background: var(--bg-tertiary) !important;
+  border-bottom: 1px solid var(--border-primary) !important;
+  color: var(--text-secondary) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--border-primary) !important;
+}
+.ant-table-tbody > tr:hover > td {
+  background: rgba(99, 102, 241, 0.04) !important;
+}
+
+/* Card */
+.ant-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid var(--border-primary) !important;
+  border-radius: var(--radius-md) !important;
+}
+.ant-card-head {
+  border-bottom: 1px solid var(--border-primary) !important;
+}
+
+/* Modal */
+.ant-modal-content {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-primary) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+.ant-modal-header {
+  background: transparent !important;
+  border-bottom: 1px solid var(--border-primary) !important;
+}
+
+/* Input */
+.ant-input, .ant-input-number, .ant-picker, .ant-select-selector {
+  background: var(--bg-tertiary) !important;
+  border-color: var(--border-secondary) !important;
+  transition: all var(--transition-fast) !important;
+}
+.ant-input:focus, .ant-input-focused,
+.ant-input-number:focus, .ant-input-number-focused,
+.ant-picker-focused, .ant-select-focused .ant-select-selector {
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15) !important;
+}
+
+/* Tabs */
+.ant-tabs-tab {
+  color: var(--text-secondary) !important;
+  font-weight: 500 !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--accent-primary) !important;
+}
+.ant-tabs-ink-bar {
+  background: var(--accent-gradient) !important;
+}
+
+/* Tag */
+.ant-tag {
+  border-radius: 20px !important;
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* Descriptions */
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  background: var(--bg-tertiary) !important;
+}
+
+/* Popover / Dropdown */
+.ant-dropdown-menu, .ant-popover-inner {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-primary) !important;
+}
+
+/* Statistic */
+.ant-statistic-title {
+  color: var(--text-secondary) !important;
+}
+.ant-statistic-content-value {
+  color: var(--text-primary) !important;
+}
+
+/* Badge */
+.ant-badge-dot {
+  background: var(--accent-primary) !important;
+}
+
+/* Timeline */
+.ant-timeline-item-head-blue {
+  border-color: var(--accent-primary) !important;
+  background: var(--accent-primary) !important;
+}
